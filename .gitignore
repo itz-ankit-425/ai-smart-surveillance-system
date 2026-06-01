@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+.next/
+
+# Environment variables
+.env
+
+# Generated files
+screenshots/
+unknown_faces/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -23,18 +23,6 @@ app = Flask(__name__)
 CORS(app)
 
 # =========================
-# EMAIL CONFIGURATION
-# =========================
-EMAIL_ADDRESS = "ankitmondal.cse22@gmail.com"
-EMAIL_PASSWORD = "qgooahqkrksnttvu"
-
-# =========================
-# TELEGRAM CONFIGURATION
-# =========================
-TELEGRAM_BOT_TOKEN = "8059657579:AAFCim6p9YQJ6FcwOkgzWJhAlJj6_UNTmII"
-TELEGRAM_CHAT_ID = "1095851239"
-
-# =========================
 # LOAD YOLO MODEL
 # =========================
 model = YOLO("yolov8n.pt")
